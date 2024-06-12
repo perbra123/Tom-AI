@@ -1,6 +1,6 @@
 # Tom-AI
 
-Bassically just a very early access code for an au kindo of like Alexa.
+Bassically just a very early access code for an ai kind of like Alexa.
 
 Currently working commands :
 
