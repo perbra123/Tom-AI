@@ -6,3 +6,4 @@ Currently working commands :
 
 bye (exits the program)
 exit(exits the program)
+shutdown (shutdowns the system, only tested on rpi4 running dietpi)
