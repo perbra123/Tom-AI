@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import pyttsx3
 import time
+import os
 
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
@@ -95,6 +96,8 @@ while True:
         break
     elif user_input.lower() == "bye":
         break
+        elif user_input.lower() == "shutdown":
+            os.system("shutdown")
 
 
     answer_question(user_input)
