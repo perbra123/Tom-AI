@@ -96,8 +96,8 @@ while True:
         break
     elif user_input.lower() == "bye":
         break
-        elif user_input.lower() == "shutdown":
-            os.system("shutdown")
+    elif user_input.lower() == "shutdown":
+        os.system("shutdown")
 
 
     answer_question(user_input)
