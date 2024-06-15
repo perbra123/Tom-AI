@@ -98,6 +98,6 @@ while True:
         break
     elif user_input.lower() == "shutdown":
         os.system("shutdown")
-
+        break
 
     answer_question(user_input)
